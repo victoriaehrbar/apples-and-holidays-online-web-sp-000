@@ -39,5 +39,5 @@ holiday_hash.map do |season, holidays|
   holidays.map do |holiday_name, supplies|
     supplies.include?("BBQ") ? holiday_name : nil
 end
-end
+end.flatten
 end
