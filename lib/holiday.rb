@@ -39,3 +39,4 @@ holiday_hash.map do |season, holidays|
   holidays.map do |holiday_name, supplies|
 end
 end
+end
